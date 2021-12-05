@@ -17,7 +17,6 @@ export const loader: LoaderFunction = async () => {
 
 const JokesIndexRoute = () => {
   const data = useLoaderData<LoaderFunction>();
-  console.log({data})
   return (
     <div>
       <p>Here's a random joke:</p>
